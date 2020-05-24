@@ -1,15 +1,18 @@
+import Layout from "../components/layout";
 import BannerTitle from "../components/banner-title";
-import Menu from "../components/menu";
+import Navbar from "../components/navbar";
+import Content from "../components/content";
 import Footer from "../components/footer";
 
 function About() {
   return (
-    <div className="main">
+    <Layout title="Home | DizEarth-com Paulivy" description="A food website">
       <BannerTitle />
-      <Menu />
+      <Navbar />
+      <Content />
 
       <Footer />
-    </div>
+    </Layout>
   );
 }
 
